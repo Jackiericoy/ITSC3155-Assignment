@@ -1,8 +1,8 @@
 class conf:
-    db_host = "localhost"
-    db_name = "sandwich_maker_api"
-    db_port = 3306
-    db_user = "root"
-    db_password = "rootroot"
-    app_host = "localhost"
+    host = "localhost"
+    database = "SandwichMakerAPI"
+    port = 3306
+    user = "root"
+    password = "Tokyo#2019"
+    app_host = "0.0.0.0"
     app_port = 8000

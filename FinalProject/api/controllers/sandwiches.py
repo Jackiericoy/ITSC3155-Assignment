@@ -1,7 +1,8 @@
 from fastapi import APIRouter, Depends, status, Response
 from sqlalchemy.orm import Session
-from ..models import models, schemas
-from ..dependencies.database import get_db
+
+from ..models import sandwiches as models
+from ..schemas import sandwiches as schemas
 from ..dependencies.database import get_db
 
 
